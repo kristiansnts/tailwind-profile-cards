@@ -6,6 +6,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+    	screnns: {
+    		'xs': '375px',
+    		'xlg': '1440px'
+    	},
     	colors: {
     		primary: {
     			darkCyan: 'hsl(185, 75%, 39%)',
@@ -18,6 +22,9 @@ module.exports = {
     	},
     	fontFamily: {
     		sans: ['Kumbh Sans', 'sans-serif'],
+    	},
+    	zIndex: {
+    		'-1': '-1',
     	}	
     },
   },
