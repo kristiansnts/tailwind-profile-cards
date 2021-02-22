@@ -10,7 +10,7 @@
   "main": "tailwind.config.js",
   "devDependencies": {},
   "scripts": {
-    "build": "tailwind build css/style.css -o css/tailwind.css"
+    "build": "tailwind build public/css/style.css -o public/css/tailwind.css"
   },
   "repository": {
     "type": "git",
